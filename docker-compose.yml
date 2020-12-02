@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  image-resizer:
+    image: image-resizer
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
