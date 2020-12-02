@@ -5,10 +5,9 @@ A micro-service to resize images. It provides an http end-point that takes the o
 #### Usage:
 
 ```
-docker pull shahedk/image-resizer:latest
-
-docker run  -p 8080:80 shahedk/image-resizer:latest
+docker-compose up
 ```
+
 The above script will start the container at http://localhost:8080
 
 #### Resize images from url
