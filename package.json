@@ -7,7 +7,6 @@
     "start": "node src/app.js",
     "test": "mocha test"
   },
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
